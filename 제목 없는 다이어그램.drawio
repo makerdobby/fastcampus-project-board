@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T08:17:26.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="xYasHujE-IKObHC5302x" version="21.1.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-04-12T09:00:39.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="E7KzBa2M4t3lBAr3U12Z" version="21.1.5" type="github" pages="10">
   <diagram name="사원가입" id="Ce-uP0RtYCxTRMdy8Dpd">
     <mxGraphModel dx="3193" dy="840" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -249,7 +249,7 @@
             <mxPoint x="1329.5" y="611.51" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NypoWCGXmZFuNiwpmajD-6" value="EMAIL input 확인" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="NypoWCGXmZFuNiwpmajD-6" value="EMAIL input" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1250" y="386.51" width="159" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NypoWCGXmZFuNiwpmajD-7" value="초기화된 비밀번호를&lt;br&gt;받을 Email을 입력해주세요&amp;nbsp;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontStyle=1;container=0;" vertex="1" parent="1">
@@ -262,10 +262,50 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YThgQ8FBFjPH699wTOvW" name="연차관리">
-    <mxGraphModel dx="1434" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1834" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iFsGITNiZK1vIjivLB0w-1" value="연차 신청" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60.5" y="-168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iFsGITNiZK1vIjivLB0w-2" value="연차신청정보입력" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="44.25" y="160" width="141" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="su7BDLRg4Atw0HU5b4lZ-5" value="호출" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="su7BDLRg4Atw0HU5b4lZ-4" target="su7BDLRg4Atw0HU5b4lZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="su7BDLRg4Atw0HU5b4lZ-4" value="&lt;br&gt;프로젝트 인원 정보 내역" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="-60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="su7BDLRg4Atw0HU5b4lZ-6" value="승인권자 미리입력" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60.5" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="su7BDLRg4Atw0HU5b4lZ-7" value="본인이 승인권자?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55.75" y="-70" width="129.5" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hbhdow_nkdLDWsXE3vfq" name="연차승인">
+    <mxGraphModel dx="1834" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lt9stwNBeQ-v2pT2QPGu-2" value="로그인" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lt9stwNBeQ-v2pT2QPGu-3" value="연차승인자?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kWLgkvivDaPb60gaJvFp-2" value="호출" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kWLgkvivDaPb60gaJvFp-1" target="lt9stwNBeQ-v2pT2QPGu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWLgkvivDaPb60gaJvFp-1" value="&lt;br&gt;프로젝트 인원 정보 내역" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-30" width="150" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
