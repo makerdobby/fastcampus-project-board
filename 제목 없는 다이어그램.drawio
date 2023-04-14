@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T01:22:41.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dpSbltSGOGE6iMjqo21Z" version="21.1.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-04-14T01:39:31.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wbRP79bDZh_mdHUAapiV" version="21.1.5" type="github" pages="11">
   <diagram name="사원가입" id="Ce-uP0RtYCxTRMdy8Dpd">
     <mxGraphModel dx="3215" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -551,7 +551,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="연차관리 v2" id="5sKd4iwVDHMNO_O-Nzuy">
-    <mxGraphModel dx="2234" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="1899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-0" />
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-1" parent="ZIlS9wfPzWsIw5VVWFeA-0" />
@@ -708,9 +708,6 @@
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-44" value="&lt;br&gt;연차 정보내역" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
           <mxGeometry x="-190.5" y="1584" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZIlS9wfPzWsIw5VVWFeA-45" value="연차 사용 완료" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
-          <mxGeometry x="60" y="1694" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-46" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ZIlS9wfPzWsIw5VVWFeA-48" target="ZIlS9wfPzWsIw5VVWFeA-40">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="329.5" y="1024" as="sourcePoint" />
@@ -744,7 +741,7 @@
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-53" value="&lt;br&gt;프로젝트 정보내역" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
           <mxGeometry x="469.5" y="871" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZIlS9wfPzWsIw5VVWFeA-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ZIlS9wfPzWsIw5VVWFeA-55" target="ZIlS9wfPzWsIw5VVWFeA-45">
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ZIlS9wfPzWsIw5VVWFeA-55" target="ctx_dWlxyUydzQFFK5tm-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-55" value="연차정보 업데이트" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
@@ -759,8 +756,10 @@
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-58" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ZIlS9wfPzWsIw5VVWFeA-60" target="ZIlS9wfPzWsIw5VVWFeA-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZIlS9wfPzWsIw5VVWFeA-59" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ZIlS9wfPzWsIw5VVWFeA-60" target="ZIlS9wfPzWsIw5VVWFeA-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZIlS9wfPzWsIw5VVWFeA-59" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ZIlS9wfPzWsIw5VVWFeA-60" target="ctx_dWlxyUydzQFFK5tm-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-60" value="해당년도 연차가 남았는가" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
           <mxGeometry x="31.25" y="400" width="177.5" height="80" as="geometry" />
@@ -774,13 +773,13 @@
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-64" value="다음 년도의 연차를 미리 사용하시겠습니까?" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontStyle=1;container=0;" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
           <mxGeometry x="280" y="393.49" width="143" height="93.01980198019801" as="geometry" />
         </mxCell>
-        <mxCell id="ZIlS9wfPzWsIw5VVWFeA-65" value="Y&lt;br&gt;사용년차 + 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ZIlS9wfPzWsIw5VVWFeA-67" target="ZIlS9wfPzWsIw5VVWFeA-20">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="ZIlS9wfPzWsIw5VVWFeA-65" value="Y&lt;br&gt;사용년차 + 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ZIlS9wfPzWsIw5VVWFeA-67" target="ZIlS9wfPzWsIw5VVWFeA-20">
+          <mxGeometry x="0.0002" relative="1" as="geometry">
             <mxPoint x="121" y="600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="545" y="570" />
-              <mxPoint x="156" y="570" />
+              <mxPoint x="545" y="615" />
             </Array>
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-66" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ZIlS9wfPzWsIw5VVWFeA-67" target="ZIlS9wfPzWsIw5VVWFeA-5">
@@ -811,7 +810,7 @@
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-71" value="연차수정" style="swimlane;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
           <mxGeometry x="-590" y="680" width="1410" height="742" as="geometry" />
         </mxCell>
-        <mxCell id="-doo25xWVr8xqYRg73F5-1" value="승인 직후에 반영?&lt;br&gt;vs&lt;br&gt;연차 당일 9시 이후 반영?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-71">
+        <mxCell id="-doo25xWVr8xqYRg73F5-1" value="승인 직후에 반영?&lt;br&gt;vs&lt;br&gt;연차 당일 9시 이후 반영?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-71">
           <mxGeometry x="1012.71" y="641.2" width="137" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-72" value="연차신청" style="swimlane;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
@@ -828,6 +827,21 @@
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-21" value="&lt;br&gt;연차 정보내역" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-72">
           <mxGeometry x="389.5" y="930" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-72" source="ctx_dWlxyUydzQFFK5tm-39" target="ctx_dWlxyUydzQFFK5tm-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-39" value="히스토리 업데이트" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-72">
+          <mxGeometry x="650" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-43" value="저장" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-72" source="ctx_dWlxyUydzQFFK5tm-41" target="ctx_dWlxyUydzQFFK5tm-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-41" value="&lt;br&gt;연차 정보내역" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-72">
+          <mxGeometry x="430" y="850" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-42" value="&lt;br&gt;연차정보히스토리" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-72">
+          <mxGeometry x="220" y="850" width="150" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="ZIlS9wfPzWsIw5VVWFeA-73" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ZIlS9wfPzWsIw5VVWFeA-75" target="ZIlS9wfPzWsIw5VVWFeA-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -840,13 +854,103 @@
           <mxGeometry x="51" y="752" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-doo25xWVr8xqYRg73F5-0" value="연차 수행" style="swimlane;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
-          <mxGeometry x="-590" y="1440" width="1410" height="340" as="geometry" />
+          <mxGeometry x="-590" y="1430" width="1410" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-doo25xWVr8xqYRg73F5-2" value="히스토리에는 언제 반영?&lt;br&gt;제안) 연차 종료일 이후 반영?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="-doo25xWVr8xqYRg73F5-0">
+          <mxGeometry x="260" y="60" width="257" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-1" target="ctx_dWlxyUydzQFFK5tm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-1" value="로그인" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="61" y="-890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-6" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-8" target="ctx_dWlxyUydzQFFK5tm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-7" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="271" y="-730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-8" value="전체관리자?" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="46" y="-770" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-9" value="호출" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-10" target="ctx_dWlxyUydzQFFK5tm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-10" value="&lt;br&gt;사원정보 히스토리" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="-169" y="-760" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-11" target="ctx_dWlxyUydzQFFK5tm-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-11" value="연차 등록 버튼" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="61" y="-630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-12" value="연차 부여" style="swimlane;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="-590" y="-1110" width="1410" height="760" as="geometry">
+            <mxRectangle x="-590" y="-1110" width="100" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-19" target="ctx_dWlxyUydzQFFK5tm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-19" value="연차 종료일 자정?" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="45" y="1730" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-24" value="저장" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-21" target="ctx_dWlxyUydzQFFK5tm-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-21" target="ctx_dWlxyUydzQFFK5tm-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-21" value="히스토리 업데이트" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="60" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-23" value="&lt;br&gt;연차정보히스토리" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="-190.5" y="1850" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-26" value="연차사용종료" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="60" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-17" value="히스토리 반영" style="swimlane;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="-590" y="1670" width="1410" height="380" as="geometry">
+            <mxRectangle x="-590" y="1670" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-30" value="메뉴 노출안됨" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="271" y="-760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-31" value="수동으로 연차 부여?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;size=30;position=0.51;" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="220.00000000000006" y="-510" width="137" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-33" target="ctx_dWlxyUydzQFFK5tm-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-33" value="연차 등록 정보 입력" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="43.879999999999995" y="-530" width="154.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-35" target="ZIlS9wfPzWsIw5VVWFeA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-35" target="ctx_dWlxyUydzQFFK5tm-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-35" value="연차등록" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="61" y="-440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-37" value="&lt;br&gt;연차 정보내역" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontStyle=1" vertex="1" parent="ZIlS9wfPzWsIw5VVWFeA-1">
+          <mxGeometry x="-160" y="-440" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_dWlxyUydzQFFK5tm-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZIlS9wfPzWsIw5VVWFeA-1" source="ctx_dWlxyUydzQFFK5tm-39" target="ZIlS9wfPzWsIw5VVWFeA-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Hbhdow_nkdLDWsXE3vfq" name="연차승인">
-    <mxGraphModel dx="1834" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1834" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
